@@ -1,0 +1,1845 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="image/MainPageSlider/logo L.png">
+  <title>Labflix Asterisk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- Owl Carousel css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- Owl Carousel css-->
+  <!-- jquery css-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <!-- jquery css-->
+</head>
+
+<body>
+  <section class="home">
+    <div class="headerbg ">
+
+      <header>
+        <div class="container ">
+          <div class="navbar flex1">
+            <div class="logo">
+              <img src="image/MainPageSlider/logo.png" alt="">
+            </div>
+            <nav>
+
+              <ul id="menuitem">
+                <li class="menu-item">
+                  <a href="MAIN PAGE.html">MAIN PAGE</a></li>
+                <li class="menu-item">
+                  <a href="#">COLLECTION ANIME OPENING & ENDING</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="html/Collection (2000-2013).html">COLLECTION (2000-2013)</a></li>
+                    <li class="menu-item"><a href="html/Collection (2014-2016).html">COLLECTION (2014-2016)</a></li>
+                    <li class="menu-item"><a href="html/Collection (2017-2019).html">COLLECTION (2017-2019)</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a href="#">ONGOING ANIME</a>
+                <ul class="sub-menu">
+                    <li class="menu-item"><a href="html/Ongoing (2020-2022).html">ONGOING (2020-2025)</a></li>
+                    <li class="menu-item"><a href="html/Ongoing (2023-2025).html">ONGOING (2020-2025)</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+            </nav>
+            <span class="fa fa-bars" onclick="menutoggle()"></span>
+            <div class="subscribe flex">
+              <i class="fas fa-search"></i>
+              <i id="palybtn" class="fas fa-user"></i>          
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="home_content mtop">
+        <div class="container">
+          <div class="left">
+            <h1 style="font-family:Algerian">MAIN PAGE</h1>
+<br>
+<br>
+<br>
+            <div class="time flex">
+              <label>@</label>
+              <i class="fas fa-circle"></i>
+              <span>All Op & Ed Collection</span>
+              <i class="fas fa-circle"></i>
+              <p>2000-Now</p>
+              <i class="fas fa-circle"></i>
+              <button>All Genre</button>
+            </div>
+            <div class="button flex">
+              <button class="btn">PLAY NOW</button>
+              <i id="palybtn" class="fas fa-play"></i>
+              <p>Go Watch For Yourself</p>
+            </div>
+            <br>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    var menuitem = document.getElementById("menuitem");
+    menuitem.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (menuitem.style.maxHeight == '0px') {
+        menuitem.style.maxHeight = "50px"
+      } else {
+        menuitem.style.maxHeight = "0px"
+      }
+    }
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 50);
+    })
+  </script>
+
+<!-- Long Anime -->
+  <section class="popular mtop">
+    <div class="container ">
+      <div class="heading flex1">
+        <h2>Long Anime</h2>
+        <button>35 Videos</button>
+      </div>
+      <div class="owl-carousel owl-theme">
+
+        <!--ITEM 1-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Detective Conan Part 1.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Detective Conan Part 1.mp4"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>Detective Conan Part 1</h3>
+              <div class="time flex">
+                <span>38 Op 36 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Mystery</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 2-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Detective Conan Part 2.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Detective Conan Part 2.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Detective Conan Part 2</h3>
+              <div class="time flex">
+                <span>18 Op 20 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Mystery</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 3-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/One Piece Part 1.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/One Piece Part 1.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>One Piece Part 1</h3>
+              <div class="time flex">
+                <span>14 Op 12 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Adventure</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 4-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Naruto Shippuuden.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Naruto & Shippuuden.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Naruto & Naruto: Shippuuden</h3>
+              <div class="time flex">
+                <span>29 Op 24 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 5-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Gintama.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Gintama.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Gintama </h3>
+              <div class="time flex">
+                <span>17 Op 17 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Comedy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+     
+        <!--ITEM 6-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/FairyTail.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Fairy Tail.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Fairy Tail</h3>
+              <div class="time flex">
+                <span>25 Op 10 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Adventure</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 7-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Fullmetal Alchemist Brotherhood.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Fullmetal Alchemist Brotherhood.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Fullmetal Alchemist: Brotherhood</h3>
+              <div class="time flex">
+                <span>4 Op</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 8-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Digimon.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Digimon & 02 & Tamers & Frontier & Savers & Xros Wars & Tri.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Digimon</h3>
+              <div class="time flex">
+                <span>10 Op 14 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Adventure</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 9-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Bakuman.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Bakuman.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Bakuman. </h3>
+              <div class="time flex">
+                <span>4 Op</span>
+                <i class="fas fa-circle"></i>
+                <a>Romance</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 10-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Shakugan no Shana.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Shakugan no Shana.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Shakugan no Shana </h3>
+              <div class="time flex">
+                <span>6 Op</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 11-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Magi The Labyrinth of Magic.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Magi.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Magi: The Labyrinth of Magic</h3>
+              <div class="time flex">
+                <span>4 Op</span>
+                <i class="fas fa-circle"></i>
+                <a>Fantasy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 12-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Ansatsu Kyoushitsu.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Ansatsu Kyoushitsu.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Ansatsu Kyoushitsu</h3>
+              <div class="time flex">
+                <span>4 Op 1 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>School</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 13-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Durarara.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Durarara!! & x2 Shou & Ten & Ketsu.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Durarara!!</h3>
+              <div class="time flex">
+                <span>5 Op 5 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Mystery</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 14-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Fate Stay Night Unlimited Blade.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Fate Stay Night Unlimited Blade & Fate Zero.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Fate/stay night</h3>
+              <div class="time flex">
+                <span>4 Op 2 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Supernatural</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 15-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/High School DxD.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/hi"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>High School DxD</h3>
+              <div class="time flex">
+                <span>4 Op 1 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Ecchi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 16-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/K-On.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/K-On!.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>K-On!</h3>
+              <div class="time flex">
+                <span>4 Op 3 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Comedy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 17-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/K.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/K & Missing Kings.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>K</h3>
+              <div class="time flex">
+                <span>2 Op 1 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Mystery</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 18-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Kuroko no Basket.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Kuroko no Basket.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Kuroko no Basket</h3>
+              <div class="time flex">
+                <span>7 Op</span>
+                <i class="fas fa-circle"></i>
+                <a>Sports</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 19-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Nanatsu no Taizai.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Nanatsu no Taizai.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Nanatsu no Taizai</h3>
+              <div class="time flex">
+                <span>9 Op 4 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Fantasy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 20-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Psycho-Pass.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Psycho-Pass.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Psycho-Pass</h3>
+              <div class="time flex">
+                <span>5 Op 4 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Suspense</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 21-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Shingeki no Kyojin.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/sh"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Shingeki no Kyojin</h3>
+              <div class="time flex">
+                <span>7 Op 5 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Suspense</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 22-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Shokugeki no Souma.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Shokugeki no Souma.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Shokugeki no Souma</h3>
+              <div class="time flex">
+                <span>7 Op 7 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Gourmet</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 23-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Shugo Chara.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Shugo Chara! & Doki & Party.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Shugo Chara!</h3>
+              <div class="time flex">
+                <span>8 Op 3 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Fantasy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 24-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Sket Dance.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Sket Dance.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>SKET Dance</h3>
+              <div class="time flex">
+                <span>6 Op 4 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>School</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 25-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Soul Eater.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Soul Eater & NOT.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Soul Eater</h3>
+              <div class="time flex">
+                <span>5 Op 2 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Fantasy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 26-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Sousei no Onmyouji.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Sousei no Onmyouji.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Sousei no Onmyouji</h3>
+              <div class="time flex">
+                <span>4 Op</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 27-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Strike the Blood.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Strike the Blood.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Strike the Blood</h3>
+              <div class="time flex">
+                <span>6 Op 2 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Supernatural</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 28-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Tokyo Ghoul.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Tokyo Ghoul & √A & re & 2nd Season.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Tokyo Ghoul</h3>
+              <div class="time flex">
+                <span>3 Op 1 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Horror</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 29-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Working!!.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Working!!.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Working!!</h3>
+              <div class="time flex">
+                <span>4 Op 4 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Comedy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 30-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Kanojo, Okarishimasu.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Kanojo, Okarishimasu.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Kanojo, Okarishimasu</h3>
+              <div class="time flex">
+                <span>3 Op 2 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Romance</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <!--ITEM 31-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Edens Zero.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Edens Zero.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Edens Zero</h3>
+              <div class="time flex">
+                <span>4 Op 1 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Adventure</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <!--ITEM 32-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Toaru Majutsu no Index.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Toaru Majutsu no Index.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Toaru Majutsu no Index</h3>
+              <div class="time flex">
+                <span>6 Op</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <!--ITEM 33-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Toaru Kagaku no Railgun.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Toaru Kagaku no Railgun & S & T.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Toaru Kagaku no Railgun</h3>
+              <div class="time flex">
+                <span>6 Op 6 Ed</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <!--ITEM 34-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Code Geass Hangyaku no Lelouch.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Code Geass Hangyaku no Lelouch.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Code Geass: Hangyaku no Lelouch</h3>
+              <div class="time flex">
+                <span>5 Op</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <!--ITEM 35-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Anime Long/Fruits Basket.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/ANIME LONG/Fruits Basket.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Fruits Basket</h3>
+              <div class="time flex">
+                <span>5 Op</span>
+                <i class="fas fa-circle"></i>
+                <a>Drama</a>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Still Airing ANIME -->
+  <section class="popular mtop">
+    <div class="container ">
+      <div class="heading flex1">
+        <h2>Still Airing</h2>
+        <button>32 VIDEO</button>
+      </div>
+      <div class="owl-carousel owl-theme">
+
+         <!--ITEM 1-->
+         <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Bleach.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Bleach.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Bleach</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!--ITEM 2-->
+         <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Black Clover.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Black Clover.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Black Clover</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 3-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Spy x Family.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Spy x Family.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Spy x Family</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 4-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Mahoutsukai no Yome.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Mahoutsukai no Yome.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Mahoutsukai no Yome</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Fantasy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 5-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Ao no Exorcist.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Ao no Exorcist.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Ao no Exorcist</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 6-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Kuroshitsuji.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Kuroshitsuji.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Kuroshitsuji</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Mystery</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 7-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Fantasy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 8-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Yahari Ore no Seishun Love Comedy wa Machigatteiru.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Yahari Ore no Seishun Love Comedy wa Machigatteiru.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Yahari Ore no Seishun Love Comedy wa Machigatteiru</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Romance</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 9-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Haikyuu!!.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Haikyuu!!.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Haikyuu!!</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Sports</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 10-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Kimetsu no Yaiba.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Kimetsu no Yaiba.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Kimetsu no Yaiba</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 11-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Jujutsu Kaisen.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Jujutsu Kaisen.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Jujutsu Kaisen</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 12-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Mahouka Koukou no Rettousei.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Mahouka Koukou no Rettousei.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Mahouka Koukou no Rettousei</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!--ITEM 13-->
+         <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Overlord.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Overlord.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Overlord</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Isekai</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 14-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Kono Subarashii Sekai ni Shukufuku wo!.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Kono Subarashii Sekai ni Shukufuku wo!.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Kono Subarashii Sekai ni Shukufuku wo!</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Isekai</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 15-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/ReZero kara Hajimeru Isekai Seikatsu.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/ReZero kara Hajimeru Isekai Seikatsu.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Re:Zero kara Hajimeru Isekai Seikatsu</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Isekai</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 16-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Youjo Senki.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Youjo Senki.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Ongoing</h3>
+              <div class="time flex">
+                <span>1hrs 02mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Isekai</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 17-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Tate no Yuusha no Nariagari.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Tate no Yuusha no Nariagari.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Tate no Yuusha no Nariagari</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Isekai</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 18-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Boku no Hero Academia.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Boku no Hero Academia.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Boku no Hero Academia</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 19-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/One Punch Man.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/One Punch Man.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>One Punch Man</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 20-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Sword Art Online.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Sword Art Online.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Sword Art Online</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 21-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Kaguya-sama wa Kokurasetai Tensai-tachi no Renai Zunousen.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Kaguya-sama wa Kokurasetai Tensai-tachi no Renai Zunousen.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Romance</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 22-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Hataraku Maou-sama!.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Hataraku Maou-sama!.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Hataraku Maou-sama!</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Fantasy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 23-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Kakegurui.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Kakegurui.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Kakegurui</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Mystery</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 24-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Chainsaw Man.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Chainsaw Man.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Chainsaw Man</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Horror</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!--ITEM 25-->
+         <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Bungou Stray Dogs.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Bungou Stray Dogs.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Bungou Stray Dogs</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Supernatural</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 26-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Enen no Shouboutai.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Enen no Shouboutai.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Enen no Shouboutai</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 27-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Mushoku Tensei Isekai Ittara Honki Dasu.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Mushoku Tensei Isekai Ittara Honki Dasu.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Mushoku Tensei: Isekai Ittara Honki Dasu</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Fantasy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 28-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Tokyo Revengers.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Tokyo Revengers.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Tokyo Revengers</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Supernatural</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!--ITEM 29-->
+         <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Date A Live.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Date A Live.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Date A Live</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Sci-Fi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 30-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Boruto Naruto Next Generations.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Boruto Naruto Next Generations.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Boruto: Naruto Next Generations</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Romance</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 31-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Free!.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/Still Ongoing/Free!.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Free!</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Sports</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ITEM 32-->
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/Still Airing/Uzaki-chan wa Asobitai!.png" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="content">
+              <a href="video/2020-2022/2022/Uzaki-chan wa Asobitai!.mp4"><i id="palybtn" class="fas fa-play" ></i></a>
+            </div>
+            <div class="text">
+              <h3>Uzaki-chan wa Asobitai!</h3>
+              <div class="time flex">
+                <span>Ongoing</span>
+                <i class="fas fa-circle"></i>
+                <a>Comedy</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        </div>
+      </div>
+     </div>
+  </section>
+
+  <!-- Owl Carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <!-- Owl Carousel -->
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+      dots: false,
+      responsive: {
+        411: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+
+  <footer>
+    <div class="container mtop">
+      <div class="box">    
+      </div>
+    </div>
+    <p class="legal">MADE BY | YAZE FROST </p>
+  </footer>
+</body>
+</html>
